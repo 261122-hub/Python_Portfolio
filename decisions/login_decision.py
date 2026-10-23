@@ -7,7 +7,7 @@ failed_attempts = int(input("Failed attempts so far:"))
 password = input("Password: ")
 
 attempts_left = MAX_FAILED - failed_attempts -1
-#جبتهن من المثال الي جنب السؤال  print  الاجوبة الي في 
+#I got them from the example next to the question. Print the answers that are in
 if failed_attempts >= MAX_FAILED:
     print("Account locked")
 elif username != KNOWN_USER:
@@ -17,6 +17,5 @@ elif password == STORED_PASSWORD:
 elif password != STORED_PASSWORD:
     print(f"Access denied. Attempts left: {attempts_left}")
 
-# بس في المثال الجواب في نقطة \t  الاخيرة كنت بدي احط  print في
-   
+# But in the example, the answer is in the last point \t; I wanted to put print in   
    

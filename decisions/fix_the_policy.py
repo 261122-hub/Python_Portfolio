@@ -5,18 +5,18 @@ MIN_LENGTH = 12
 username = input("Username: ")
 password = input("New password: ")
 
-# syntax ----> :ناسي ال 
+# syntax ----> I forgot the :
 if len(password) < MIN_LENGTH: 
     print("- Too short.")
-# semantic ----> طبعت الاول بس elif  في الجواب الي ع يمين السؤال ظاهر جواب الشرطين لو كانت 
+# semantic ----> The first one printed, but in the answer shown to the right of the question, the result for both conditions appears—as if it were an `elif`.
 if password == username: 
     print("- Same as the username.") 
 
 # semantic
 if len(password) >= 16:
     strength = "long"  
-# المفروض هاي تيجي مكان ل 12 لانه اي عدد اكبر من 16 
-# lراح تطبع الشرط الاول لانه العدد بكون اكبر من 12  وهيك الكشرط الثاني ملوش لزو
+# Let’s assume this takes 12 days—or any number greater than 16.
+# You will print the first condition because the number is greater than 12, and therefore the second condition is unnecessary.
 
 elif len(password) >= MIN_LENGTH:
     strength = "acceptable"
@@ -24,4 +24,4 @@ else:
     strength = "short"
 print(f"Length: {len(password)} ({strength})")    
 
-# semantic -----> لانه اذا تحقق واحد من 3 شروط الي فوق ما بطبع اشي print  لازم نزيل المسافات الي قبل 
+# semantic -----> Because if any one of the three conditions above is met, nothing will be printed; we must remove the preceding spaces.
