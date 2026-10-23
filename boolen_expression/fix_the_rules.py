@@ -3,13 +3,12 @@
 
 role = input("Role: ")
 
-# (semantic)  int() كرقم فلازم احط  port  احنا بدنا 
+# (semantic) int() as a number, so we need to put a port.
 port = int(input("Port: "))
-
-# (semantic) فلازم احط كمان يساوي عشان يصير سؤال هل تساوي admin  هو راح يشتغل الكود تمام بس القيمة مسندة ل 
+# (semantic) So I also need to add an equals sign to make it a question: Is it equal to admin? The code will work fine, but the value is assigned to
 is_admin = role =="admin"
 
-# (syntax)  لازم اشارة الاصغر تيجي قبل ال يساوي 
+# (syntax) The "less than" symbol must come before the equals sign.
 is_system_port = port <= 1023
 
 is_web_port = port == 80 or 443
