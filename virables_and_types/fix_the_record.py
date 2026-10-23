@@ -18,6 +18,6 @@ print("Backup IP:", end_ip)
 print("Type:", device_class)
 
 print("Port:", port)
-#يكتشف Python --(Syntax Errors) أولًا،
-# لأنه يجب أن يحلل الكود قبل أن يتمكن من تنفيذه واكتشاف الأخطاء الأخرى.
+#Python detects syntax errors first,
+# because it must parse the code before it can execute it and discover other types of errors.
 
