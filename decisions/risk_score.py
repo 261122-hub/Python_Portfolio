@@ -20,3 +20,5 @@ else:
 
 print(f"Risk score: {score} {level}") 
 
+# For incrementing the score, I was using the old method, but in Chapter 4, I switched to the new method (`+=`).
+
