@@ -1,8 +1,5 @@
-print(type(8080))
-print(type("8080"))
-print(type(99.5))
-print(type("198.51.100.7"))
-print(type(1_000))
+# type_check.py
+# Putpose: checking data types and predictions in python.
 
 #Predictions:
 # 8080 is int
@@ -11,6 +8,14 @@ print(type(1_000))
 # "198.51.100.7" is str
 # 1_000 is int
 
-print(int("443"), type(int(443)))
-print(str("8080"), type(str("8080")))
-print(float(2.5), type(float(2.5)))
+print(type(8080))
+print(type("8080"))
+print(type(99.5))
+print(type("198.51.100.7"))
+print(type(1_000))
+
+
+
+print(int("443"), type(int("443")))
+print(str("8080"), type(str(8080)))
+print(float(2.5), type(float("2.5")))
