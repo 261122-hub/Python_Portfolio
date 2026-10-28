@@ -1,3 +1,6 @@
+#port_classifier.py
+#Classifies and analyzes network ports to identify traffic types or security states
+
 port = int(input("Port: "))
 
 

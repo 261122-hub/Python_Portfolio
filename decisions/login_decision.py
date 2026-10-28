@@ -1,3 +1,5 @@
+#login_decision.py
+#Handles user authentication flow and makes decisions to grant or deny.
 MAX_FAILED = 5
 KNOWN_USER = "analyst"
 STORED_PASSWORD = "Blue#Falcon72"
