@@ -1,3 +1,6 @@
+#risk_score.py
+#Classifies and analyzes network ports to identify traffic types or security states.
+
 score = 0
 failed_attempts = int(input("Failed attempts in the last hour: "))
 login_hour = int(input("Login hour (0-23): "))
@@ -18,7 +21,7 @@ else:
    level = "LOW"
 
 
-print(f"Risk score: {score} {level}") 
+print(f"Risk score: {score} {(level)}") 
 
 # For incrementing the score, I was using the old method, but in Chapter 4, I switched to the new method (`+=`).
 
