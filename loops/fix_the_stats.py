@@ -23,6 +23,7 @@ for value in minutes:
       total += value
       count += 1
 # I changed // to / based on the corrected answer , i also deleted the space.
+# It should be printed after the turkey is finished, not inside it.
 print(f"Average session: {total / count} minutes")
 
 # In answer 4, it is included, so I will set the interval as (1, 5).
