@@ -35,6 +35,7 @@ def port_range(port):
         return "user"
     elif 49152 <= port <= 65535:
         return "dynamic"
+    
 
 def check_port():
     """Prompts the user for a port number and checks its range."""
